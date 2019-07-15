@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# to use run `source <(curl -s https://raw.githubusercontent.com/cynixx3/third-party-miner-installer-for-ethos/master/miner-manager) miner action` Where the miner is the branch in the repo and the actions are install, update, or revert
-# IE `source <(curl -s https://raw.githubusercontent.com/cynixx3/third-party-miner-installer-for-ethos/master/miner-manager) phoenixminer install`
+# to use run `source <(curl -s https://raw.githubusercontent.com/jayrug/third-party-miner-installer-for-ethos/master/miner-manager) miner action` Where the miner is the branch in the repo and the actions are install, update, or revert
+# IE `source <(curl -s https://raw.githubusercontent.com/jayrug/third-party-miner-installer-for-ethos/master/miner-manager) phoenixminer install`
 # Any setting changes to this should be made to the miner.settings file in the miners branch of this repo
 
 MINER_BRANCH="$1"
@@ -18,7 +18,7 @@ ALLOW="$(cat /opt/ethos/etc/allow.file)"
 
 # Default miner.settings
 TMP_DIR="/tmp/newminer"
-GIT_USER_REPO="cynixx3/third-party-miner-installer-for-ethos"
+GIT_USER_REPO="jayrug/third-party-miner-installer-for-ethos"
 #RELEASE_SHASUM="sha256sum of archive"
 #DEPENDS="URL URL"
 
