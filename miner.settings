@@ -4,7 +4,7 @@
 # download method 1: set the User/repo of the github repository to download the latest release
 # IE https://github.com/technobyl/CryptoDredge/releases is set as "technobyl/CryptoDredge"
 # if not defined and no DOWNLOAD_URL is set then the script checks this repository's releases where a custom compiled version can be stored.
-GIT_USER_REPO="cynixx3/third-party-miner-installer-for-ethos"
+GIT_USER_REPO="jayrug/third-party-miner-installer-for-ethos"
 
 # If the above does not apply and the miner is hosted at a wget friendly site you can set the download url
 # DOWNLOAD_URL="http://URL.tgz"
